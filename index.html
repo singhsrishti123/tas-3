@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Article with Styled Images</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-image: url(https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=1024x1024&w=0&k=20&c=z8_rWaI8x4zApNEEG9DnWlGXyDIXe-OmsAyQ5fGPVV8=);
+      color: #333;
+    }
+
+    .container {
+      width: 80%;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    img {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: 20px auto;
+      border: 5px solid #3498db;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    }
+
+    .caption {
+      text-align: center;
+      font-style: italic;
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>The Beauty of Nature</h1>
+    <p>Nature is not a place to visit, it is home. The beauty of our planet is immense—from vast mountain ranges to the smallest flower, everything is part of a complex, beautiful ecosystem.</p>
+
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Beautiful Landscape">
+    <div class="caption">A peaceful mountain view reminding us of nature’s serenity.</div>
+
+    <p>Spending time in nature improves mental health, boosts creativity, and provides us with a sense of peace. We must preserve and protect our environment to ensure that future generations can enjoy the same beauty we do today.</p>
+
+    <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e" alt="Forest Path">
+    <div class="caption">Walking through a forest can recharge the soul.</div>
+  </div>
+</body>
+</html>
